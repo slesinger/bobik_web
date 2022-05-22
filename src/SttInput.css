@@ -1,0 +1,49 @@
+.space-out {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.md-card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.interim {
+  color: grey
+}
+
+.final {
+  color: black
+}
+
+body {
+  background: lightgrey;
+  font-family: avenir
+}
+
+#interface,
+#start_button,
+#results,
+#link-stuff {
+}
+
+#interface {
+  background: whitesmoke
+}
+
+#results {
+  background: white
+}
+
+#link-stuff {
+  background: grey
+}
+
+#start_img {
+  border-radius: 10px
+}
+
+#btn,
+#info {
+  text-align: center
+}
