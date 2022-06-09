@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 
@@ -11,6 +13,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

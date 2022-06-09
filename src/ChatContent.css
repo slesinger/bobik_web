@@ -1,0 +1,19 @@
+.chat-human {
+    background-color: #534e05;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgb(224, 205, 205);
+    text-align: left;
+}
+
+.chat-robot {
+    background-color: #064168;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgb(168, 216, 255);
+    text-align: right;
+}

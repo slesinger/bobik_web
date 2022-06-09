@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "Bobik",
+    "short_name": "Bobik",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000",
+    "description": "Ovladač na Bobíka.",
+    "icons": [
+        {
+            "src": "images/mic-1.gif",
+            "sizes": "96x96",
+            "type": "image/gif"
+        }
+    ]
+}

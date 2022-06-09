@@ -1,49 +1,21 @@
-.space-out {
-  padding: 10px;
-  margin: 10px;
-  border-radius: 10px;
+#rec-input {
+    width: 53%;
 }
 
-.md-card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+#rec-transcript {
+    color: #fff;
 }
 
-.interim {
-  color: grey
+.blink-transcript {
+    animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite;
 }
 
-.final {
-  color: black
-}
+@keyframes blinker {
+    from {
+        background-color: #0d6dfd2f;
+    }
 
-body {
-  background: lightgrey;
-  font-family: avenir
-}
-
-#interface,
-#start_button,
-#results,
-#link-stuff {
-}
-
-#interface {
-  background: whitesmoke
-}
-
-#results {
-  background: white
-}
-
-#link-stuff {
-  background: grey
-}
-
-#start_img {
-  border-radius: 10px
-}
-
-#btn,
-#info {
-  text-align: center
+    to {
+        background-color: #0d6dfd3d;
+    }
 }
