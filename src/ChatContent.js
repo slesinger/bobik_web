@@ -15,13 +15,19 @@ class ChatContent extends Component {
 
   addHumanMessage(text) {
     let messages = this.state.messages
-    messages.push({ cl: 'chat-human', text: text })
+    messages.unshift({ cl: 'chat-human', text: text })
+    if (messages.length > 10) {
+      messages.splice(-1)
+    }
     this.setState({ messages: messages })
   }
 
   addRobotMessage(text) {
     let messages = this.state.messages
-    messages.push({ cl: 'chat-robot', text: text })
+    messages.unshift({ cl: 'chat-robot', text: text })
+    if (messages.length > 10) {
+      messages.splice(-1)
+    }
     this.setState({ messages: messages })
   }
 

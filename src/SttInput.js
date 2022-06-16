@@ -6,7 +6,7 @@ class SttInput extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            transcript: "pocatek"
+            transcript: ""
         }
     }
 
@@ -71,11 +71,11 @@ class SttInput extends Component {
 
     render() {
         return <div>
+            <img id="img-submit" onClick={this.submitDictation} src="/dash/images/submit-1.gif" alt="submit" />
+            <img id="img-mic" onClick={this.startDictation} src="/dash/images/mic-1.gif" alt="microphone" />
             <span key={this.state.transcript}>
                 <input className="align-middle" type="text" id="rec-input" placeholder="Stiskni mikrofon a diktuj" onKeyDown={this.handleKeyDown} />
             </span>
-            <img id="img-mic" onClick={this.startDictation} src="/dash/images/mic-1.gif" alt="microphone" />
-            <img id="img-submit" onClick={this.submitDictation} src="/dash/images/submit-1.gif" alt="submit" />
             <div id="rec-transcript" className="blink-transcript">{this.state.transcript}</div>
         </div >
     };
