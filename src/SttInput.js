@@ -12,7 +12,7 @@ class SttInput extends Component {
 
     startDictation = () => {
         if (window.hasOwnProperty('webkitSpeechRecognition')) {
-            this.setState({ transcript: "nahravam" })
+            this.setState({ transcript: "Poslouchám..." })
             document.querySelector('#img-mic').src = '/dash/images/mic.gif'
 
             this.recognition = new window.webkitSpeechRecognition();
